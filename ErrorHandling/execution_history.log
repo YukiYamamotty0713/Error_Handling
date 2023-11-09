@@ -1,0 +1,22 @@
+-------------------------------------------------
+Timestamp: 2023-11-09 22:29:24
+Error Type: ZeroDivisionError
+Error Message: division by zero
+Error Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Owner\OneDrive\デスクトップ\ErrorHandling\main.py", line 9, in <module>
+    result = 10 / 0  # ゼロによる除算例外を発生させる
+             ~~~^~~
+ZeroDivisionError: division by zero
+
+-------------------------------------------------
+Timestamp: 2023-11-09 22:33:23
+Error Type: TypeError
+Error Message: unsupported operand type(s) for +: 'int' and 'str'
+Error Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Owner\OneDrive\デスクトップ\ErrorHandling\main.py", line 11, in <module>
+    x+y
+    ~^~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
